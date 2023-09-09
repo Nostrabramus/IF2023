@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    z-index: 99;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.text:after {
+    color: rgba(0,0,0,0.5);
+    font-size: 260px;
+    font-family: arial;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#text1 {
+    width: 5000px;
+    top: 100px;
+    animation-name: scroll1;
+}
+#text1:after {
+    content: "Il mondo dovrebbe essere così";
+    background-image: url(../images/logo-emergency.png);
+    background-repeat: repeat;
+    background-position: center center; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+#text2 {
+    width: 4000px;
+    bottom: 100px;
+    animation-name: scroll2;
+}
+#text2:after {
+    content: "chi ha bisogno va aiutato";
+    background-image: url(../images/logo-emergency.png);
+    background-repeat: repeat;
+    background-position: center center; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+@keyframes scroll1 {
+    0% {
+        right: -5000px;
+    }
+    60% {
+        right: 1500px;
+    }
+    100% {
+        right: 1500px;
+    }
+}
+@keyframes scroll2 {
+    0% {
+        right: -4000px;
+    }
+    50% {
+        right: -4000px;
+    }
+    100% {
+        right: 1500px;
+    }
+}
+
+/* 338 1816287 */
+
+#imageWrapper {
+    width: 2560px;
+    height: 1440px;
+    background-color: rgba(0,0,0,0.5)000;
+    position: absolute;
+    z-index: 1;
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+@keyframes rotate {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: -75%;
+        left: 0;
+    }
+
+    50% {
+        top: -75%;
+        left: -75%;
+    }
+
+    75% {
+        top:0;
+        left: -75%;
+    }
+
+    to {
+        top: 0;
+        left: 0;
+    }
+}
+
+.imgItem {
+    float: left;
+    margin: 1px;
+    padding: 0;
+    width: calc( 10% - 2px );
+    height: calc( 10% - 2px );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.imgItem:nth-child(1) {
+    background: url(../peaceImages/01.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(2) {
+    background: url(../peaceImages/02.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(3) {
+    background: url(../peaceImages/03.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(4) {
+    background: url(../peaceImages/04.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(5) {
+    background: url(../peaceImages/05.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(6) {
+    background: url(../peaceImages/06.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(7) {
+    background: url(../peaceImages/07.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(8) {
+    background: url(../peaceImages/08.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(9) {
+    background: url(../peaceImages/09.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(10) {
+    background: url(../peaceImages/10.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(11) {
+    background: url(../peaceImages/11.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(12) {
+    background: url(../peaceImages/12.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(13) {
+    background: url(../peaceImages/13.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(14) {
+    background: url(../peaceImages/14.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(15) {
+    background: url(../peaceImages/15.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(16) {
+    background: url(../peaceImages/16.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(17) {
+    background: url(../peaceImages/17.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(18) {
+    background: url(../peaceImages/18.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(19) {
+    background: url(../peaceImages/19.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(20) {
+    background: url(../peaceImages/20.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(21) {
+    background: url(../peaceImages/21.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(22) {
+    background: url(../peaceImages/22.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(23) {
+    background: url(../peaceImages/23.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(24) {
+    background: url(../peaceImages/24.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(25) {
+    background: url(../peaceImages/25.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(26) {
+    background: url(../peaceImages/26.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(27) {
+    background: url(../peaceImages/27.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(28) {
+    background: url(../peaceImages/28.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(29) {
+    background: url(../peaceImages/29.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(30) {
+    background: url(../peaceImages/30.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(31) {
+    background: url(../peaceImages/31.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(32) {
+    background: url(../peaceImages/32.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(33) {
+    background: url(../peaceImages/33.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(34) {
+    background: url(../peaceImages/34.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(35) {
+    background: url(../peaceImages/35.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(36) {
+    background: url(../peaceImages/36.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(37) {
+    background: url(../peaceImages/37.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(38) {
+    background: url(../peaceImages/38.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(39) {
+    background: url(../peaceImages/39.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(40) {
+    background: url(../peaceImages/40.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(41) {
+    background: url(../peaceImages/41.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(42) {
+    background: url(../peaceImages/42.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(43) {
+    background: url(../peaceImages/43.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(44) {
+    background: url(../peaceImages/44.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(45) {
+    background: url(../peaceImages/45.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(46) {
+    background: url(../peaceImages/46.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(47) {
+    background: url(../peaceImages/47.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(48) {
+    background: url(../peaceImages/48.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(49) {
+    background: url(../peaceImages/49.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(50) {
+    background: url(../peaceImages/50.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(51) {
+    background: url(../peaceImages/51.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(52) {
+    background: url(../peaceImages/52.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(53) {
+    background: url(../peaceImages/53.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(54) {
+    background: url(../peaceImages/54.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(55) {
+    background: url(../peaceImages/55.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(56) {
+    background: url(../peaceImages/56.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(57) {
+    background: url(../peaceImages/57.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(58) {
+    background: url(../peaceImages/58.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(59) {
+    background: url(../peaceImages/59.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(60) {
+    background: url(../peaceImages/60.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(61) {
+    background: url(../peaceImages/61.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(62) {
+    background: url(../peaceImages/62.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(63) {
+    background: url(../peaceImages/63.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(64) {
+    background: url(../peaceImages/64.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(65) {
+    background: url(../peaceImages/65.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(66) {
+    background: url(../peaceImages/66.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(67) {
+    background: url(../peaceImages/67.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(68) {
+    background: url(../peaceImages/68.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(69) {
+    background: url(../peaceImages/69.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(70) {
+    background: url(../peaceImages/70.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(71) {
+    background: url(../peaceImages/71.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(72) {
+    background: url(../peaceImages/72.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(73) {
+    background: url(../peaceImages/73.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(74) {
+    background: url(../peaceImages/74.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(75) {
+    background: url(../peaceImages/75.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(76) {
+    background: url(../peaceImages/76.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(77) {
+    background: url(../peaceImages/77.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(78) {
+    background: url(../peaceImages/78.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(79) {
+    background: url(../peaceImages/79.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(80) {
+    background: url(../peaceImages/80.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(81) {
+    background: url(../peaceImages/81.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(82) {
+    background: url(../peaceImages/82.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(83) {
+    background: url(../peaceImages/83.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(84) {
+    background: url(../peaceImages/84.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(85) {
+    background: url(../peaceImages/85.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(86) {
+    background: url(../peaceImages/86.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(87) {
+    background: url(../peaceImages/87.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(88) {
+    background: url(../peaceImages/88.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(89) {
+    background: url(../peaceImages/89.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(90) {
+    background: url(../peaceImages/90.png) no-repeat center center scroll; 
+}
+
+.imgItem:nth-child(91) {
+    background: url(../peaceImages/91.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(92) {
+    background: url(../peaceImages/92.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(93) {
+    background: url(../peaceImages/93.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(94) {
+    background: url(../peaceImages/94.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(95) {
+    background: url(../peaceImages/95.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(96) {
+    background: url(../peaceImages/96.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(97) {
+    background: url(../peaceImages/97.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(98) {
+    background: url(../peaceImages/98.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(99) {
+    background: url(../peaceImages/99.png) no-repeat center center scroll; 
+}
+.imgItem:nth-child(100) {
+    background: url(../peaceImages/100.png) no-repeat center center scroll; 
+}
