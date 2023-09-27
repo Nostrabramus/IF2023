@@ -22,10 +22,12 @@ body {
     background-color: rgba(0,0,0,0.5)000;
     position: absolute;
     z-index: 1;
+    /*
     animation-name: rotate;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+     */
 }
 
 @keyframes rotate {
